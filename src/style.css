@@ -56,13 +56,13 @@ h1, h2, h3, h4, h5, h6 {
 /* custom properties */
 :root {
     /* font sizes */
-    --fs-sm: clamp(0.8rem, 0.17vi + 0.76rem, 0.89rem);
-    --fs-base: clamp(1rem, 0.34vi + 0.91rem, 1.19rem);
-    --fs-md: clamp(1.25rem, 0.61vi + 1.1rem, 1.58rem);
-    --fs-lg: clamp(1.56rem, 1vi + 1.31rem, 2.11rem);
-    --fs-xl: clamp(1.95rem, 1.56vi + 1.56rem, 2.81rem);
-    --fs-xxl: clamp(2.44rem, 2.38vi + 1.85rem, 3.75rem);
-    --fs-xxxl: clamp(3.05rem, 3.54vi + 2.17rem, 5rem);
+  --fs-sm: clamp(0.8rem, 0.17vi + 0.76rem, 0.89rem);
+  --fs-base: clamp(1rem, 0.34vi + 0.91rem, 1.19rem);
+  --fs-md: clamp(1.25rem, 0.61vi + 1.1rem, 1.58rem);
+  --fs-lg: clamp(1.56rem, 1vi + 1.31rem, 2.11rem);
+  --fs-xl: clamp(1.95rem, 1.56vi + 1.56rem, 2.81rem);
+  --fs-xxl: clamp(2.44rem, 2.38vi + 1.85rem, 3.75rem);
+  --fs-xxxl: clamp(3.05rem, 3.54vi + 2.17rem, 5rem);
 }
 
 /* System Fonts with system-ui */
@@ -71,78 +71,78 @@ body {
 }
 
 .layout {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-height: 100vh;
-    gap: 12px;
-    background-image: url(./assets/cuppaMoment001.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  gap: 12px;
+  background-image: url(./assets/cuppaMoment001.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 header{
-    padding: 8px 0px;
+  padding: 8px 0px;
 }
 
 .nav-btn-wrapper {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    gap: 2rem;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 2rem;
 }
 
 .nav-btn {
-    padding: 4px 12px;
-    border-radius: 20px;
-    font: var(--fs-base);
-    font-weight: 450;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font: var(--fs-base);
+  font-weight: 450;
 
-    &:hover,
-    &:focus-visible {
-        cursor: pointer;
-        outline: none;
-        background-color: rgb(183, 183, 183);
-        box-shadow: 2px 2px 2px rgb(28, 28, 28);
-    }
+  &:hover,
+  &:focus-visible {
+    cursor: pointer;
+    outline: none;
+    background-color: rgb(183, 183, 183);
+    box-shadow: 2px 2px 2px rgb(28, 28, 28);
+  }
 }
 
 #content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 64px;
 }
 
 .headline-card,
 .content-card {
-    padding: 8px 12px;
-    border-radius: 20px;
-    background-color: rgba(255, 255, 255, 0.35);
+  padding: 8px 12px;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.7);
 }
 
 .headline-card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .headline {
-    font-size: var(--fs-xxxl);
-    font-weight: 500;
+  font-size: var(--fs-xxxl);
+  font-weight: 500;
 }
 
 .headline-subtext {
-    font-size: var(--fs-lg);
-    font-weight: 350;
+  font-size: var(--fs-lg);
+  font-weight: 350;
 }
 
 .content-card {
-    max-width: 1000px; 
+  max-width: 1000px; 
 }
 
 .content-title {
-    border-bottom: 2px solid rgba(0, 0, 0, 0.6);
-    display: inline-block;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.6);
+  display: inline-block;
 }
