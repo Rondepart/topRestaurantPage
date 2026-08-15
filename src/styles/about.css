@@ -1,0 +1,14 @@
+.about-card {
+  display: flex;
+  flex-direction: column;
+  width: clamp(250px, 60vw, 500px);
+  padding: 8px 12px;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.7);
+  font-size: var(-);
+}
+
+.about-title {
+  font-weight: 500;
+}
+
