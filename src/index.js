@@ -1,3 +1,4 @@
 import './style.css';
+import { createHomePageContent } from './homePage.js';
 
-console.log(`index.js console log test`);
+createHomePageContent();
